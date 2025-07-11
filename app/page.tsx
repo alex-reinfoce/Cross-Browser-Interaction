@@ -1,9 +1,10 @@
-import { Button } from "@/components/button";
-
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <Button />
+    <div>
+      <div className="w-[100px] h-[100px] bg-amber-300" />
+      <button className="bg-blue-500 text-white px-4 py-2 rounded cursor-pointer">
+        发送到另一个页面
+      </button>
     </div>
   );
 }
